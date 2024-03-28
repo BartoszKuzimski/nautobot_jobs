@@ -1,4 +1,5 @@
 from nautobot.extras.jobs import Job, StringVar
+
 class SimpleLogJob(Job):
     class Meta:
         name = "Simple Log Message"
